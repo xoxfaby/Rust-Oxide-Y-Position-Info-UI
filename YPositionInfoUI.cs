@@ -99,7 +99,6 @@ namespace Oxide.Plugins
                 {
                     float UIRefreshRate = (float)Config["UIRefreshRateMilliSeconds"] / 1000f;
                     info.nextUIRefresh = Time.time + UIRefreshRate;
-                    Puts(UIRefreshRate.ToString());
                 }
             }
             CuiHelper.DestroyUi(player, labelName);
