@@ -7,7 +7,7 @@ using Oxide.Game.Rust.Libraries.Covalence;
 
 namespace Oxide.Plugins
 {
-    [Info("Y-Position Info UI", "XoXFaby", "1.0.1")]
+    [Info("Y-Position Info UI", "XoXFaby", "1.0.2")]
     [Description("Helps you more easily see your Y position.")]
     class YPositionInfoUI : CovalencePlugin
     {
