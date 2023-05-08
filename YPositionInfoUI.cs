@@ -138,7 +138,7 @@ namespace Oxide.Plugins
 
         void OnPlayerInput(BasePlayer player, InputState input)
         {
-            if (!(bool)Config["CommandOnlyMode"]) return;
+            if ((bool)Config["CommandOnlyMode"]) return;
 
             if (input.IsDown(BUTTON.RELOAD) && !input.WasDown(BUTTON.RELOAD))
             {
