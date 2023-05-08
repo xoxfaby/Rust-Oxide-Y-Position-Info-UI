@@ -8,5 +8,5 @@ You can set an Entity as your Y Reference Entity, meaning instead of showing you
 
 # Configuration
 * `ShowUIByDefault` - `bool: default = true` - Whether or not players should see the UI by default when they join the server.
-*  `UIRefreshRateMilliSeconds` - `float: default = 0` - How often to update the UI, in milliseconds. If you run into performance issues you can change this. 0 means it updates as often as possible.  
+*  `UIRefreshRateMilliSeconds` - `int: default = 0` - How often to update the UI, in milliseconds. If you run into performance issues you can change this. 0 means it updates as often as possible.  
 *  `CommandOnlyMode` - `bool: default = false` - This disables the functionailty of settings your Y Reference Entity with the hammer and you must use the command to change it.

@@ -75,7 +75,7 @@ namespace Oxide.Plugins
         {
             UnityEngine.Debug.Log("Creating default configuration file");
             Config["ShowUIByDefault"] = true;
-            Config["UIRefreshRateMilliSeconds"] = 0f;
+            Config["UIRefreshRateMilliSeconds"] = 0;
             Config["CommandOnlyMode"] = false;
         }
 
@@ -97,7 +97,7 @@ namespace Oxide.Plugins
                 }
                 else
                 {
-                    float UIRefreshRate = (float)Config["UIRefreshRateMilliSeconds"] / 1000f;
+                    float UIRefreshRate = (int)Config["UIRefreshRateMilliSeconds"] / 1000f;
                     info.nextUIRefresh = Time.time + UIRefreshRate;
                 }
             }
