@@ -116,7 +116,7 @@ namespace Oxide.Plugins
             return null;
         }
 
-        void setYReferenceEntity(BasePlayer player)
+        void SetYReferenceEntity(BasePlayer player)
         {
             BaseEntity heldEntity = player.GetHeldEntity();
             if (heldEntity == null)
@@ -142,7 +142,7 @@ namespace Oxide.Plugins
 
             if (input.IsDown(BUTTON.RELOAD) && !input.WasDown(BUTTON.RELOAD))
             {
-                setYReferenceEntity(player);
+                SetYReferenceEntity(player);
             }
         }
 
@@ -167,7 +167,7 @@ namespace Oxide.Plugins
         private void SetYEntity(RustPlayer player, string command, string[] args)
         {
             BasePlayer basePlayer = (BasePlayer)player.Object;
-            setYReferenceEntity(basePlayer);
+            SetYReferenceEntity(basePlayer);
         }
     }
 }
