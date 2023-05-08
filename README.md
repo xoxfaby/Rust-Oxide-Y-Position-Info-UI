@@ -1,4 +1,4 @@
-**Y-Position Info UI** adds a simple UI to show you your Y position, meaning your vertical position in the world. This mod is intended to help with building, more specifically building pixelbunkers. 
+**Y-Position Info UI** adds a simple UI to show your Y position, meaning your vertical position in the world. This mod is intended to help with building, more specifically building pixelbunkers. 
 
 You can set an Entity as your Y Reference Entity, meaning instead of showing your overall Y position, it shows you how far above or below you are in relation to a specific entity. This is intended to be used with foundations, showing your position as exactly 0 when standing on the foundation. You can change your Y Reference Entity by looking at an entity and pressing "Reload" while not holding anything in your hand, or with the `setyentity` command. 
 
